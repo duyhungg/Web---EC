@@ -1,0 +1,106 @@
+@import 'normalize.css';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+:root {
+    --primary: #fe2c55;
+    --black: #000;
+    --text-color: #333;
+    --white: #fff;
+    --border-color: #dbdbdb;
+    --primary-color: #ee4d2d;
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+    --star-color: #ffce3e;
+    --navbar-height: 34px;
+    --header-height: 120px;
+    --header-with-search-height: calc(var(--header-height) - var(--navbar-height));
+    --primary-hover-color: #ed5c3f;
+    // Default layout
+    --default-layout-header-height: 60px;
+    body {
+        font-size: 1.6rem;
+        line-height: 1.5;
+        text-rendering: optimizespeed;
+        color: var(--text-color);
+        .tippy-box {
+            border-radius: 8px;
+            font-weight: 600;
+            font-size: 1.6rem;
+            line-height: 2.2rem;
+            background-color: rgba(84, 84, 84, 0.92);
+        }
+
+        .tippy-arrow {
+            color: rgba(84, 84, 84, 0.92);
+        }
+
+        .tippy-content {
+            padding: 8px 9px;
+        }
+
+        .tippy-box[data-placement^='bottom'] > .tippy-arrow:before {
+            top: -8px;
+        }
+    }
+}
+
+button,
+input,
+[tabindex] {
+    outline: none;
+    border: none;
+}
+
+a[href] {
+    color: var(--text-color);
+    text-decoration: none;
+}
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-rendering: optimizespeed;
+}
+.grid {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+/* áp dụng full màn hình cho elements  */
+/* cái này dùng để respondsive */
+.grid__full-width {
+    width: 100%;
+}
+/* hiển thị elements xuống dòng*/
+
+.grid__row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -5px;
+    margin-right: -5px;
+}
+/* test */
+.grid__column-2 {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 16.6667%;
+}
+.grid__column-2-4 {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 20%;
+}
+.grid__column-10 {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 83.3334%;
+}

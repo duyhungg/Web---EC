@@ -1,0 +1,40 @@
+.grid1 {
+    display: flex;
+    justify-content: center;
+}
+.container {
+    margin: 20px;
+}
+.infor-form {
+    display: grid;
+    align-items: center;
+}
+.infor {
+    margin: 0 20px;
+}
+.image {
+    width: 400px;
+    height: 400px;
+    color: red;
+    background-color: red;
+}
+.comment {
+    display: flex;
+}
+.button-buy {
+    display: flex;
+}
+.price {
+    margin: 20px;
+    display: flex;
+}
+.price-price {
+    background-color: transparent;
+    color: black;
+    margin-right: 10px;
+}
+.price-input {
+    border-radius: 2px;
+    border: 2px solid;
+    display: inline-block;
+}
