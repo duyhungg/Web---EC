@@ -18,6 +18,7 @@
     --primary-hover-color: #ed5c3f;
     // Default layout
     --default-layout-header-height: 60px;
+
     body {
         font-size: 1.6rem;
         line-height: 1.5;
@@ -103,4 +104,7 @@ body {
     padding-left: 5px;
     padding-right: 5px;
     width: 83.3334%;
+}
+* {
+    box-sizing: border-box;
 }

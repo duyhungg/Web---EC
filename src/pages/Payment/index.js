@@ -1,16 +1,15 @@
-import styles from './payment.scss';
+import { useEffect } from 'react';
+
 function Payment() {
-    return (
-        <div className="container">
-            TRang thanh toan
-            <div className="wrapper1">TRang thanh toan</div>
-            <div className="wrapper2">TRang thanh toan</div>
-            <div className="wrapper3">TRang thanh toan</div>
-            <div className="wrapper4">TRang thanh toan</div>
-            <div className="wrapper5">TRang thanh toan</div>
-            <div className="wrapper6">TRang thanh toan</div>
-        </div>
-    );
+    useEffect(() => {
+        fetch('http://localhost:3000/posts')
+            .then((res) => res.json())
+            .then((data) => {
+                console.log(data);
+            });
+    }, []);
+
+    return <div className="container"></div>;
 }
 
 export default Payment;
