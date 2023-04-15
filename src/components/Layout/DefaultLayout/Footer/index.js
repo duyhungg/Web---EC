@@ -10,12 +10,12 @@ function Footer() {
                         <h3 className={cx('footer__heading')}>Chăm sóc khách hàng</h3>
                         <ul className={cx('footer-list')}>
                             <li className={cx('footer-item')}>
-                                <a className={cx('footer-item-link')} href>
+                                <a className={cx('footer-item-link')} href="true">
                                     Trung tâm trợ giúp
                                 </a>
                             </li>
                             <li className={cx('footer-item')}>
-                                <a className={cx('footer-item-link')} href>
+                                <a className={cx('footer-item-link')} href="true">
                                     Trợ giúp mua hàng
                                 </a>
                             </li>
@@ -25,17 +25,17 @@ function Footer() {
                         <h3 className={cx('footer__heading')}>Giới thiệu</h3>
                         <ul className={cx('footer-list')}>
                             <li className={cx('footer-item')}>
-                                <a className={cx('footer-item-link')} href>
+                                <a className={cx('footer-item-link')} href="true">
                                     Giới thiệu
                                 </a>
                             </li>
                             <li className={cx('footer-item')}>
-                                <a className={cx('footer-item-link')} href>
+                                <a className={cx('footer-item-link')} href="true">
                                     Điều khoản
                                 </a>
                             </li>
                             <li className={cx('footer-item')}>
-                                <a className={cx('footer-item-link')} href>
+                                <a className={cx('footer-item-link')} href="true">
                                     Tuyển dụng
                                 </a>
                             </li>
@@ -45,12 +45,12 @@ function Footer() {
                         <h3 className={cx('footer__heading')}>Danh mục sản phẩm</h3>
                         <ul className={cx('footer-list')}>
                             <li className={cx('footer-item')}>
-                                <a className={cx('footer-item-link')} href>
+                                <a className={cx('footer-item-link')} href="true">
                                     Sản phẩm 1
                                 </a>
                             </li>
                             <li className={cx('footer-item')}>
-                                <a className={cx('footer-item-link')} href>
+                                <a className={cx('footer-item-link')} href="true">
                                     Sản phẩm 2
                                 </a>
                             </li>
@@ -60,19 +60,19 @@ function Footer() {
                         <h3 className={cx('footer__heading')}>Theo dõi chúng tôi</h3>
                         <ul className={cx('footer-list')}>
                             <li className={cx('footer-item')}>
-                                <a className={cx('footer-item-link')} href>
+                                <a className={cx('footer-item-link')} href="true">
                                     Facabook
                                     {/* thêm thẻ i icon vào */}
                                 </a>
                             </li>
                             <li className={cx('footer-item')}>
-                                <a className={cx('footer-item-link')} href>
+                                <a className={cx('footer-item-link')} href="true">
                                     Instagram
                                     {/* thêm thẻ i icon vào */}
                                 </a>
                             </li>
                             <li className={cx('footer-item')}>
-                                <a className={cx('footer-item-link')} href>
+                                <a className={cx('footer-item-link')} href="true">
                                     Github
                                     {/* thêm thẻ i icon vào */}
                                 </a>
@@ -83,12 +83,12 @@ function Footer() {
                         <h3 className={cx('footer__heading')}>VÀo của hàng trên ứng dụng</h3>
                         <ul className={cx('footer-list')}>
                             <li className={cx('footer-item')}>
-                                <a className={cx('footer-item-link')} href>
+                                <a className={cx('footer-item-link')} href="true">
                                     CHPLAY
                                 </a>
                             </li>
                             <li className={cx('footer-item')}>
-                                <a className={cx('footer-item-link test')} href>
+                                <a className={cx('footer-item-link test')} href="true">
                                     AppStore
                                 </a>
                             </li>
